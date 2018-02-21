@@ -1,5 +1,7 @@
 package com.rehanjaved;
 
+import com.rehanjaved.blockchain.Block;
+
 /**
  * Represents a Main class.
  * 
@@ -15,7 +17,9 @@ public class Driver {
 	 */
 	public static void main(String[] args) {
 
-		
+		// Genesis Block.
+		Block genesisBlock = new Block(0, null, "first block.");
+		System.out.println("Block Hash: "+genesisBlock.getHash());
 		
 	}
 
