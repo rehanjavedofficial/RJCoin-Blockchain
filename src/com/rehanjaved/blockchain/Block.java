@@ -119,7 +119,7 @@ public class Block {
 	/**
 	 * @return countOfMiningTransaction
 	 */
-	public int getCountOfMiningTransaction() {
+	private int getCountOfMiningTransaction() {
 	
 		return countOfMiningTransaction;
 	
